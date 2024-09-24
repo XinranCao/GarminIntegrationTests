@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 const AppleHealthKit = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.h1}>Method 4: Apple Health Kit</Text>
+      <Text style={styles.h1}>Method 1: Apple Health Kit</Text>
     </View>
   );
 };

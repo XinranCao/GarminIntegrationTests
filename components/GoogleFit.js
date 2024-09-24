@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 const GoogleFit = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.h1}>Method 4: Google Fit</Text>
+      <Text style={styles.h1}>Method 1: Google Fit</Text>
     </View>
   );
 };
