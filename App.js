@@ -1,14 +1,14 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, SafeAreaView, ScrollView } from "react-native";
 import GarminHealthAPI from "./components/GarminHealthAPI";
-import AppleHealthKit from "./components/AppleHealthKit";
+import AppleHealthKitComp from "./components/AppleHealthKitComp";
 import GoogleFit from "./components/GoogleFit";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.wrapper}>
-        <AppleHealthKit />
+        <AppleHealthKitComp />
         {/* <GoogleFit /> */}
         <GarminHealthAPI />
       </ScrollView>

@@ -12,7 +12,12 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "This app requires access to HealthKit to track your step count.",
+        "NSHealthUpdateUsageDescription": "This app requires permission to update your health data."
+      },
+      "bundleIdentifier": "com.xinran.GarminTest"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +27,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-health"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fc329160-1e11-409c-8683-3e3341cf63e9"
+      }
     }
   }
 }
