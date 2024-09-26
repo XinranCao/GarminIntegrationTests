@@ -2,17 +2,20 @@ import { StyleSheet, Text, View } from "react-native";
 
 const GarminHealthAPI = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.h1}>Method 2: Garmin Health API</Text>
+    <View style={styles.sectionContainer}>
+      <Text style={styles.title}>Method 2: Garmin Health API</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {},
-  h1: {
-    fontSize: 18,
-    fontWeight: "bold",
+  sectionContainer: {
+    marginTop: 32,
+    paddingHorizontal: 24,
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: "600",
   },
 });
 
