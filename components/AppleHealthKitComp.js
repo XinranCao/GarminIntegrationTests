@@ -33,12 +33,10 @@ const AppleHealthKitComp = () => {
     }
     eventEmitter.addListener("healthKit:StepCount:setup:success", async () => {
       console.log("set up success");
-      // fetchSteps(); // Fetch new step count
     });
 
     eventEmitter.addListener("healthKit:StepCount:setup:failure", async () => {
       console.log("set up fails");
-      // fetchSteps(); // Fetch new step count
     });
 
     eventEmitter.addListener("healthKit:StepCount:new", async () => {

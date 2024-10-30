@@ -9,16 +9,22 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.2.3",
+    "axios": "^1.7.7",
+    "crypto-js": "^4.2.0",
     "expo": "~51.0.28",
+    "expo-auth-session": "~5.5.2",
     "expo-dev-client": "~4.0.27",
     "expo-status-bar": "~1.12.1",
+    "expo-web-browser": "~13.0.3",
+    "oauth-1.0a": "^2.2.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.74.5",
     "react-native-ble-plx": "^3.2.1",
     "react-native-health": "^1.18.0",
     "react-native-permissions": "^4.1.5",
-    "react-native-web": "~0.19.10"
+    "react-native-web": "~0.19.10",
+    "react-native-webview": "^13.12.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

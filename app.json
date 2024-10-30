@@ -2,6 +2,7 @@
   "expo": {
     "name": "GarminTest",
     "slug": "GarminTest",
+    "scheme": "com.xinran.GarminTest",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -29,9 +30,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "react-native-health"
-    ],
+    "plugins": ["react-native-health"],
     "extra": {
       "eas": {
         "projectId": "fc329160-1e11-409c-8683-3e3341cf63e9"
